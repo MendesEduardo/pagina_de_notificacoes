@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #dfdfdf;
+}
+
+.container {
+    max-width: 800px;
+    margin: 1em auto -1em auto;   
+    background: rgb(197, 197, 197);
+    padding: 1.5em 2em;
+    border-radius: 1em;
+    box-shadow: 0.5em 0.5em 2em black;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+}
+
+header input {
+    border: none;
+    background: none;
+    font-size: 1.2em;
+
+}
+
+header input:hover {
+    color: rgb(16, 29, 212);
+    cursor: pointer;
+}
+
+.card .notifications {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+.card .badge {
+    padding:0 0.5em;
+    border-radius: 0.3em;
+    background: rgb(9, 18, 131);
+    color: white;
+}
+
+
+/* MAIN */
+main {
+    margin-top: 2em;
+}
+
+main img {
+    width: 50px;
+    height: 50px;
+    margin: 1em;
+}
+
+.img_texto {
+    display: flex;
+    justify-content: start;
+    border-radius: 0.5em;
+}
+
+.noticia {
+    background: #12a1a173;
+    display: flex;
+    justify-content: start;
+    border-radius: 0.5em;
+    margin-top: 0.3em;
+}
+
+.resposta {
+    border: 1px solid rgb(46, 46, 46);
+    border-radius: 0.5em;
+    margin: 1em;
+    margin-left: 5.5em;
+}
+
+.resposta p {
+    padding: 1em;
+}
+
+.img_texto + .img_texto{
+    margin-top: 0.3em;
+}
+
+.img_texto .img_msg {
+    margin-left: 15em;
+}
+
+@media (max-width:700px) {
+    .img_texto .img_msg {
+        margin-left: 1em;
+    }
+    
+}
+
+.info {
+    padding:1em 0 0 0.5em;
+}
+
+.resposta {
+    padding:0 1em;
+}
+
+main .name_perfil{
+    color: #000;
+    font-weight: 600;
+}
+
+main a:hover {
+    color: rgb(16, 29, 212);
+}
+
+main p,
+main text {
+    margin-top: 0.2em;
+    color: gray;
+}
+
+main a {
+    font-weight: 600;
+    color: rgb(85, 85, 85);
+}
+
+
+main span {
+    padding:0 0.5em;
+    margin-left: 0.5em;
+    border-radius: 1em;
+    background: rgb(218, 15, 15);
+    color: white;
+}
+
+
+.attribution { 
+    margin-top: 2em;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
